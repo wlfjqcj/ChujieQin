@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP1 Starter</title>
+</head>
+
+<body>
+
+  <header>
+   <nav >
+   <ul class = "n">
+   <li><a id = "ab" href="#About">About</a></li>
+  <li><a id = "pr" href="#Projects">Projects</a></li>
+  <li><a id = "sk"  href="#Skills">Skills</a></li>
+  <li><a id = "co"  href="#Contact">Contact</a></li>
+ <i class="fa fa-camera-retro" id ="fas"></i>
+
+</ul>
+  </nav>
+ </header>
+
+
+
+   <div onscroll="indicator()" class="portion">
+  <h1 class = "ps">Chujie Qin</h1>
+
+  </div>
+
+
+
+  <h2 class = "tit">About me</h2>
+   <div id = "multic" class = "multic">
+     <h3>
+  <p>
+    a master student major in Industrial Engineering
+  </p>
+  <p>
+    think web development is such a cool thing in computer science.
+  </p>
+  <p>
+    interned at Lilitofu as a backend developer
+  </p>
+    </h3>
+   </div>
+  <div id = "About">
+<!--Slides reference from w3schools: https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+ <div class="slideshow-container">
+
+  <div class="mySlides">
+
+    <img class = "ppt" src="http://ww3.sinaimg.cn/large/0060lm7Tly1fjqen9rqo6j312y0nedi3.jpg
+">
+
+  </div>
+
+  <div class="mySlides">
+
+    <img class = "ppt" src="http://ww4.sinaimg.cn/large/0060lm7Tly1fjqenxjnpdj312q0n2dhu.jpg
+">
+
+  </div>
+
+  <div class="mySlides">
+
+    <img class = "ppt" src="http://ww1.sinaimg.cn/large/0060lm7Tly1fjqeod8tpdj31240nqjsq.jpg
+" >
+
+  </div>
+
+  <button class="prev" id = "pre">&#10094;</button>
+  <button class="next" id = "nex">&#10095;</button>
+</div>
+
+</div>
+
+
+
+<!--Modal reference from w3schools: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal-->
+  <div id = "Projects">
+       <h2 class = "tit">My projects</h2>
+   <h3 class = "subtit"> Some research & coursework projects</h3>
+    <!-- Trigger/Open The Modal -->
+<video class = "vid" controls>
+   <source src="fitfeedpresentation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<div class = "btn">
+<button id="myBtn1" class = "myBtn"><img class = "buttImg"  src="https://media.wired.com/photos/5927287dac01987bf0138a97/master/pass/IMG_2569.jpg"></button>
+<button id="myBtn2" class = "myBtn"><img class = "buttImg"  src="https://learn.eduopen.org/pluginfile.php/1736/local_course_extrasettings/content/921417729/data_mining.jpg"></button>
+<button id="myBtn3" class = "myBtn"><img class = "buttImg"  src="http://geekwebdesigns.com/wp-content/uploads/2016/09/Front-End-vs-Back-End-vs-Full-Stack-Web-Developers.jpg"></button>
+</div>
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4><p>Virtual Reality Project: Flight Simulation <i class="fa fa-github fa-2x"></i></p></h4>
+      <div class = "des"><h5><p>1.Designed game environment in Unity, exploring how human visual and vestibular systems respond to VR</p></h5>
+       <h5><p>2.Applied C# and Java to simulate flight and shooting, focusing on the realization of visualization scenery</p></h5>
+      <h5><p>3.Enhanced game experience in Oculus by increasing the FPS and optimizing UI design
+</p></h5></div>
+      <img class = "proj" src="https://www.rogerdodger.net/wp-content/uploads/2016/09/FSX-sample.jpg">
+  </div>
+
+</div>
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4><p>Data Mining for Movie Rating Predictions <i class="fa fa-github fa-2x"></i></p></h4>
+      <div class = "des"><h5><p>1.Used Python to preprocess the dataset to make it more suitable to train</p></h5>
+       <h5><p>2.Applie dKNN, Neural Network, Linear Regression, and Logistic Regression to train the dataset and evaluate their performances</p></h5>
+      <h5><p>3.Compared the results of different algorithms, and selected the one that ranked top30 in Kaggle Competition
+</p></h5></div>
+      <img class = "proj" src="http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2016/08/Screen-Shot-2016-08-21-at-3.48.36-PM.png">
+  </div>
+
+</div>
+
+<!-- The Modal -->
+<div id="myModal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4><p>Healthy Food Recommendation Platform Design <i class="fa fa-github fa-2x"></i></p></h4>
+      <div class = "des"><h5><p>1.Coded back-end and managed database in PHP and SQL, and coded front-end in CSS, HTML, Bootstrap and JavaScript.</p></h5>
+       <h5><p>2.Built a web crawler to extract food content in Python, and applied DB-Scan algorithm to recommend low-calorie foods for users</p></h5>
+      <h5><p>3.Designed a real-time chat platform integrated customers and restaurants with WebSocket</p></h5></div>
+      <img class = "proj" src="https://3i77hz2byv5n1pii73412ndb-wpengine.netdna-ssl.com/wp-content/uploads/2014/09/o-ORGANIC-FOODS-facebook.jpg">
+  </div>
+</div>
+
+  </div>
+
+  <div id = "Skills">
+    <h2 class = "tit">My Skills</h2>
+   <h3 class = "subtit"> Some skills I learn</h3>
+    <img class = "ski" src="http://ww1.sinaimg.cn/large/0060lm7Tly1fjqhc863q6j30ze0q2n13.jpg
+">
+    </div>
+
+
+  <div id = "Contact">
+    <h2 class = "tit">Contact me</h2>
+   <h3 class = "subtit"> You can contact me by LinkedIn, Github, and Facebook</h3>
+    <ul class="flex-container">
+    <a class = "icons" href = "https://www.linkedin.com/in/chujie-qin-181972129/" ><i id = "lk" class="fa fa-linkedin fa-5x" aria-hidden="true" ></i></a>
+    <a class = "icons" href = "https://www.facebook.com/chujie.qin" >
+            <i id = "lk" class="fa fa-facebook-official fa-5x" aria-hidden="true"></i> </a>
+    <a class = "icons" href = "https://github.com/wlfjqcj">
+        <i id = "lk" class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+        </ul>
+  </div>
+
+
+
+
+  <footer>
+      rhettqin@gmail.com
+  </footer>
+   <script src="https://use.fontawesome.com/a658a34720.js"></script>
+   <script src="bundle.js" type="text/javascript"></script>
+</body>
+
+
+</html>
