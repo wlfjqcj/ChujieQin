@@ -658,6 +658,7 @@ pre code {
   }
 }
 
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
@@ -5665,7 +5666,7 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: #669999 !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {
