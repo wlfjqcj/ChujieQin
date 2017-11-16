@@ -16,6 +16,10 @@
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
@@ -159,69 +163,323 @@
       </div>
     </aside>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-      <h3 class = "tit">My Projects</h3>
+    <!-- Portfolio Grid -->
+    <section class="bg-light portfolio" id="portfolio">
       <div class="container">
         <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
+          <div class="col-lg-12 text-center">
+              <h3 class = "tit">My Projects</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/1.1.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Fitfeed</h4>
+              <p class="text-muted">Full stack project: Health food recommendation platform</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/1.2.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Movie Search Engine App</h4>
+              <p class="text-muted">Front-end project: Used react.js and RESTful API to build a movie search engine</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/1.3.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>RESTful API Design</h4>
+              <p class="text-muted">Back-end project: Used node.js, express.js and MongoDB up implement a RESTful API</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/1.4.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Nearby</h4>
+              <p class="text-muted">Full stack project: An web app that helps people nearby to chat and hangout together</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/1.5.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>FlightSim</h4>
+              <p class="text-muted">Virtual Reality design for flight shooting game</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/1.6.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Yelp Data Analysis</h4>
+              <p class="text-muted">Yelp data analysis project using hadoop, Google Cloud Platform, and machine learning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
             <div class="row">
-
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://github.com/wlfjqcj/VR_FlightSimulation">
-                    <img class="img-portfolio img-fluid" src="img/modal1.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="http://fitfeed123.web.engr.illinois.edu/index.php">
-                    <img class="img-portfolio img-fluid" src="img/modal2.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://github.com/wlfjqcj">
-                    <img class="img-portfolio img-fluid" src="img/modal3.png">
-                  </a>
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://github.com/wlfjqcj">
-                    <img class="img-portfolio img-fluid" src="img/modal4.png">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://github.com/wlfjqcj">
-                    <img class="img-portfolio img-fluid" src="img/modal5.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="https://github.com/wlfjqcj/DataMining_MovieRatePrediction">
-                    <img class="img-portfolio img-fluid" src="img/modal6.jpg">
-                  </a>
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Fitfeed</h2>
+                  <p class="item-intro text-muted">Healthy Food Recommendation Platform Design</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/1.1.png" alt="">
+                  <p>- Coded back-end and managed database in PHP and SQL, and coded front-end in CSS, HTML, Bootstrap and JavaScript</p>
+                  <p>- Built a web crawler in Python, and applied DB-Scan algorithm to recommend low-calorie foods for users</p>
+                  <p>- Designed a real-time chat platform integrated customers and restaurants with WebSocket</p>
+                  <ul class="list-inline">
+                     <li class="list-inline-item">Website:
+                        <a href="http://fitfeed123.web.engr.illinois.edu/index.php">
+                          <i class="fa fa-linkedin fa-fw fa-1x"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">Github:
+                        <a href="https://github.com/wlfjqcj/Full-Stack-FitFeed">
+                          <i class="fa fa-github fa-fw fa-1x"></i>
+                        </a>
+                      </li>
+                    <li class="list-inline-item">Demo:
+                      <a href="https://www.youtube.com/watch?v=8aKCMTBZKb8&t=58s">
+                        <i class="fa fa-youtube fa-fw fa-1x"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
                 </div>
               </div>
             </div>
-            <!-- /.row (nested) -->
           </div>
-          <!-- /.col-lg-10 -->
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
-    </section>
+    </div>
 
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Movie Search Engine App</h2>
+                  <p class="item-intro text-muted">Web Development: TMDB Movie Search Engine App Design</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/1.2.jpg" alt="">
+                  <p>- Utilized JavaScript, HTML and CSS / Sass to develop the movie browser app</p>
+                  <p>- Realized basic functions of the app using react.js, and optimized UI by utilizing Semantic-UI</p>
+                  <p>- Applied RESTful API to get data and filtered out IMDB Top250 movies based on keywords, genres and sorting orders</p>
+                  <ul class="list-inline">
+                      <li class="list-inline-item">Github:
+                        <a href="https://github.com/wlfjqcj">
+                          <i class="fa fa-github fa-fw fa-1x"></i>
+                        </a>
+                      </li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">RESTful API Design</h2>
+                  <p class="item-intro text-muted">Task Management RESTful API Design</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/1.3.png" alt="">
+                  <p>- Implemented an RESTful API with different endpoints using node.js, Express.js and MongoDB</p>
+                  <p>- Designed JSON query encoded string parameters for the GET requests to the users and tasks endpoints</p>
+                  <p>- Made appropriate HTTP status codes for both successful and error responses</p>
+                  <ul class="list-inline">
+                      <li class="list-inline-item">Github:
+                        <a href="https://github.com/wlfjqcj">
+                          <i class="fa fa-github fa-fw fa-1x"></i>
+                        </a>
+                      </li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Nearby<s/h2>
+                  <p class="item-intro text-muted">An web app helps users chat with people nearby in Google Map user interface</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/1.4.jpg" alt="">
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">FlightSim</h2>
+                  <p class="item-intro text-muted">Virtual Reality Design for Flight Shooting Game</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/1.5.png" alt="">
+                  <p>- Designed game environment in Unity3D, exploring how human visual and vestibular systems respond to VR</p>
+                  <p>- Applied C# and Java to simulate flight and shooting, focusing on the realization of visualization scenery</p>
+                  <p>- Enhanced game experience in Oculus by increasing the FPS and optimizing UI design</p>
+                  <ul class="list-inline">
+                      <li class="list-inline-item">Github:
+                        <a href="https://github.com/wlfjqcj/VR_FlightSimulation">
+                          <i class="fa fa-github fa-fw fa-1x"></i>
+                        </a>
+                      </li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Yelp Data Analysis</h2>
+                  <p class="item-intro text-muted">Yelp data analysis project using hadoop, Google Cloud Platform, and machine learning</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/1.6.jpg" alt="">
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Footer -->
     <footer>
       <div class="container">
